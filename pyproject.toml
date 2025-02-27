@@ -19,6 +19,7 @@ dependency-injector = "^4.44.0"
 fastapi = "^0.115.6"
 uvicorn = "^0.32.0"
 pydantic = "^2.10.0"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.38"}
 
 [tool.poetry.group.test.dependencies]
 pytest = "^8.3.4"
