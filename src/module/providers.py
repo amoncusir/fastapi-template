@@ -1,9 +1,9 @@
 from dependency_injector import providers
 
 
-class RouteProvider(providers.Singleton):
+class ApplicationScoped(providers.Singleton):
     pass
 
 
-class UseCaseProvider(providers.Singleton):
+class RequestScoped(providers.ContextLocalSingleton):
     pass
